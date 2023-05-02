@@ -1,0 +1,1 @@
+<a href="{{ route('cart.list') }}" class="cart-btn cart-btn-prev">◀ 前の画面に戻る</a>

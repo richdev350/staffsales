@@ -1,0 +1,1 @@
+<button class="cart-btn cart-btn-next" onClick="document.location.href='{{ route('order.form') }}'">お客様情報の入力 ▶</button>

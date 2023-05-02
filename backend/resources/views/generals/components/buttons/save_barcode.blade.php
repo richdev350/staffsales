@@ -1,0 +1,1 @@
+<button type="button" class="cart-btn cart-btn-prev m-2 save-barcode">バーコードを保存</button>

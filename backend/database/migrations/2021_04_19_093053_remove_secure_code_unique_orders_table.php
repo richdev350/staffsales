@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class RemoveSecureCodeUniqueOrdersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        //
+
+        Schema::table('orders', function (Blueprint $table) {
+            $table->dropUnique('ui_secure_code');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        //
+
+        Schema::table('orders', function (Blueprint $table) {
+            $table->unique('secure_code', 'ui_secure_code');
+        });
+    }
+}

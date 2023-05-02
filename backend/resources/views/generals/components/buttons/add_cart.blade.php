@@ -1,0 +1,1 @@
+<a class="inline js-add-cart"><span class="cart-icon">カートに入れる</span></a>

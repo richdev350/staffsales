@@ -1,0 +1,239 @@
+/* CSS Document */
+
+body {
+	margin:0;
+	font-size:95%;
+	line-height:150%;
+	color:#333;	
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrap {
+	background-color: #fff;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+ content: " ";
+ display: table;
+}
+ 
+.cf:after {
+ clear: both;
+}
+ 
+/* For IE 6/7 only */
+.cf {
+ *zoom: 1;
+}
+
+a{
+	color:#036;
+	-webkit-transition-property:color;  
+    -webkit-transition-duration:0.2s;  
+    -webkit-transition-timing-function:linear; 
+}
+
+
+a:hover{
+	color:#069;
+}
+
+img{
+	border:0;
+	max-width:100%;
+	vertical-align:bottom;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+	height: auto;
+}
+
+p {
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5 {
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+header,footer,section,aside,article,nav,div,ul,li,dl,dt,dd,p,span,img,h1,h2,h3,h4,h5,a{
+	box-sizing: border-box;
+}
+
+
+.clear{clear:both;}
+
+
+table{border-collapse:collapse;}
+th{border-collapse:collapse;}
+td{border-collapse:collapse;}
+
+
+
+.font_navy{color:#006699;}
+.font_darkred{color:#990000;}
+.font_red{color:#FF0000;}
+.font_green{color:#669900;}
+.font_pink{color:#D12267;}
+.font_yellow{color:#FF0;}
+.font_lightgray{color:#ccc;}
+.font_lightblue{color:#3FA9F5;}
+.font_lightgreen{color:#009844;}
+
+
+.font_normal{font-weight:normal;}
+.font_bold{font-weight:bold;}
+.font_small{font-size:80%;}
+.font_middle{font-size:90%;}
+.font_big{font-size:110%;}
+
+
+.line_center{text-align:center;}
+.line_right{text-align:right;}
+.line_left{text-align:left;}
+
+
+
+.pad0{padding:0px !important;}
+.mar0{padding:0px !important;}
+
+.mBottom0{margin-bottom:0px !important;}
+.mBottom10{margin-bottom:10px !important;}
+.mBottom20{margin-bottom:20px !important;}
+.mBottom30{margin-bottom:30px !important;}
+.mBottom40{margin-bottom:40px !important;}
+.mBottom50{margin-bottom:50px !important;}
+.mBottom60{margin-bottom:60px !important;}
+.mBottom70{margin-bottom:70px !important;}
+.mBottom80{margin-bottom:80px !important;}
+.mBottom90{margin-bottom:90px !important;}
+.mBottom100{margin-bottom:100px !important;}
+
+.mTop0{margin-top:0px !important;}
+.mTop10{margin-top:10px !important;}
+.mTop20{margin-top:20px !important;}
+.mTop30{margin-top:30px !important;}
+.mTop40{margin-top:40px !important;}
+.mTop50{margin-top:50px !important;}
+.mTop60{margin-top:60px !important;}
+.mTop70{margin-top:70px !important;}
+.mTop80{margin-top:80px !important;}
+.mTop90{margin-top:90px !important;}
+.mTop100{margin-top:100px !important;}
+
+
+.pBottom0{padding-bottom:0px !important;}
+.pBottom10{padding-bottom:10px !important;}
+.pBottom20{padding-bottom:20px !important;}
+.pBottom30{padding-bottom:30px !important;}
+.pBottom40{padding-bottom:40px !important;}
+.pBottom50{padding-bottom:50px !important;}
+.pBottom60{padding-bottom:60px !important;}
+.pBottom70{padding-bottom:70px !important;}
+.pBottom80{padding-bottom:80px !important;}
+.pBottom90{padding-bottom:90px !important;}
+.pBottom100{padding-bottom:100px !important;}
+
+.pTop0{padding-top:0px !important;}
+.pTop10{padding-top:10px !important;}
+.pTop20{padding-top:20px !important;}
+.pTop30{padding-top:30px !important;}
+.pTop40{padding-top:40px !important;}
+.pTop50{padding-top:50px !important;}
+.pTop60{padding-top:60px !important;}
+.pTop70{padding-top:70px !important;}
+.pTop80{padding-top:80px !important;}
+.pTop90{padding-top:90px !important;}
+.pTop100{padding-top:100px !important;}
+
+
+
+.pc{display:block !important;}
+.tb{display:none;}
+.sp{display:none !important;}
+
+
+
+/* mmenu黒 */
+#wrap {
+    position: relative;
+}
+#wrap .spHeaderWrap {
+    display: block;
+    position: fixed;
+    top: 12px;
+    right: 25px;
+    width: 25px;
+    z-index: 11111;
+}
+#menu.mm-menu {
+    background:#333;
+}
+#menu.mm-menu .mm-navbar a, .mm-menu .mm-navbar>* {
+    color: #7E7E7E;
+}
+#menu.mm-menu a {
+    color:#E3E3E3;
+}
+#menu.mm-menu .mm-btn:after, #menu.mm-menu .mm-btn:before , #menu.mm-menu .mm-listview .mm-btn_next:after {
+    border-color: #7E7E7E;
+}
+
+
+
+
+
+
+/******************************************************************************************/
+
+/* for TB & SP CSS   */
+
+/******************************************************************************************/
+
+
+
+
+
+/******************/
+/* for Tablet    */
+/* 600px-959px    */
+/******************/
+@media only screen and (min-width: 800px) and (max-width: 1120px) {
+
+.pc{display:block;}
+.tb{display:block !important;}
+.sp{display:none;}
+
+
+
+}
+
+
+
+
+
+/******************/
+/* for SP-TB      */
+/* 320px-599px    */
+/* only Header    */
+/******************/
+@media only screen and (max-width: 799px) {
+
+
+.pc{display:none !important;}
+.tb{display:none;}
+.sp{display:block !important;}
+
+
+
+
+
+}
+
+
+
+

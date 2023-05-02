@@ -1,0 +1,337 @@
+table {
+    margin: 15px auto 20px auto;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+table th {
+    padding: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+    font-weight: normal;
+}
+table td {
+    padding: 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#header .head_wrap .search .sbox1 {
+	width: calc(100% - 42px);
+	padding: 1px 10px;
+    box-sizing: border-box;
+	border-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+    -webkit-appearance: none;
+    height: 35px;
+    border: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul#quantity_level {
+    display: flex;
+    justify-content: space-around;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.barcode img {
+	float: left;
+	width: 150px;
+}
+
+
+.modal {
+	z-index: 9999;
+}
+
+.cart_area .cartin .attention {
+	margin-top: 7px;
+}
+
+/* roster.php */
+.warning {
+	width: 98%;
+	margin: 0 auto 0.5rem;
+}
+.warning strong {
+	color: rgba(211,28,91,1.00);
+}
+h3.calender {
+	width: 98%;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto 1rem;
+	padding: 1% 0;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: rgba(230,129,163,0.2);
+}
+.rosterwrap table {
+	table-layout: fixed;
+	width: 98%;
+	margin: 0 auto 2rem;
+}
+.rosterwrap th,
+.rosterwrap td {
+	width: 5%;
+	height: 1.5rem;
+	padding: 0.5% 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.rosterwrap .head {
+	position: relative;
+	background-color: rgba(236,245,255,1.00);
+}
+.rosterwrap .date {
+	font-family: Arial, Helvetica, "sans-serif";
+	background-color: rgba(251,250,248,0.70);
+}
+
+.rosterwrap th.roster-data-name {
+	color: rgba(78,78,78,1.00);
+	width: 20%;
+	padding: 0.5% 0;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(236,245,255,0.50);
+}
+.rosterwrap th.head {
+	width: 20%;
+}
+@media only screen and (max-width: 599px) {
+	.rosterwrap table {
+		font-size: 7px;
+	}
+}
+/* roster.php end */
+
+.modal-backdrop.in {
+	opacity: .5;
+}
+
+.fake-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cart_modal_dialog .modal-title {
+	font-size: 22px;
+}
+#cart_modal_dialog img {
+	width: 100%;
+}
+
+#cart_modal_dialog .item-name {
+	font-size: 14px;
+}
+
+#cart_modal_dialog .item-price {
+	font-size: 18px;
+	color: #e03311;
+}
+
+#cart_modal_dialog .question {
+	background: #f3f3f3;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 30px 0 30px;
+	border-top: solid 1px #f4f4f4;
+	border-bottom: solid 1px #f4f4f4;
+}
+
+#cart_modal_dialog .btn {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	color: #666666;
+	padding: 14px 0;
+	width: 240px;
+}
+
+#cart_modal_dialog .btn.go-cart {
+	background: rgba(215,50,106,1.00);
+	color: white;
+}
+
+.age-limit {
+	max-width: 90%;
+	min-height: 200px;
+	max-height: 240px;
+	background: grey;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#age-limit-confirm-dialog {
+	width: 100%;
+	padding: 2%;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+	float: right;
+}
+
+.age-limit-title {
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+ul.age-limit-message {
+	text-align: left;
+	background: white;
+	list-style:circle;
+	list-style-type:disc;
+	padding-left: 20px;
+}
+
+ul.age-limit-message li {
+	margin: 0;
+	display: list-item;
+	width: 100%;
+}
+
+.age-limit-question{
+	margin-top: 30px;
+}
+
+.age-limit-button-bar{
+	margin-top: 90px;
+}
+
+.age-limit-button-bar .btn-agree{
+	min-width: 120px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #e681a3;
+}
+
+.age-limit-button-bar .btn-discard{
+	min-width: 120px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background: #676767;
+}
+
+.week-ranking-number img {
+	width: 50%;
+}
+
+.week-ranking-number .prev-week-ranking {
+	min-height: 30px;
+}
+
+.class-one-check-notes {
+	width: 100%;
+	height: 300px;
+	margin: 20px 0;
+	overflow-y: scroll;
+}
+
+.class-one-check-question textarea {
+	width: 100%;
+	min-height: 100px;
+}
+
+.class-one-check-question {
+	margin-top: 20px;
+}
+
+.class-one-check.btn_area a:link,
+.class-one-check.btn_area a:visited,
+.class-one-check-question .btn_area a:link,
+.class-one-check-question .btn_area a:visited {
+	color: white;
+}
+
+.qa {
+	margin-bottom: 20px;
+}
+
+.qa .question {
+	font-weight: bold;
+	color: rgba(211,28,91,1.00);
+	border-bottom: solid 1px;
+}
+
+.qa .answer {
+
+}
+
+.canceled-item .sub-total {
+	text-decoration: line-through;
+	color: red;
+}
+
+.order-details {
+	margin-bottom: 30px;
+}
+
+.order-details .row {
+	margin-bottom: 10px;
+}
+
+.order-details .item-name {
+	display: flex;
+	align-items: center;
+}
+
+#desired_date:read-only {
+	background: unset;
+}
+
+.class-one-waiting,
+.renew_wrap td a.attention {
+	color: red;
+}
+
+.login-status {
+	color: white;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 12px;
+}
+
+.cart-btn {
+	color: white;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+}
+
+.cart-btn-prev {
+	border: 1px solid #cccccc;
+	color: #666666;
+	background: #f8f8f8;
+}
+
+.cart-btn-next {
+	background: #D12267;
+}
+
+.continue_button:hover {
+	opacity: 0.7;
+	text-decoration: underline;
+	color:rgba(194,27,81,1.00); /* #c21b51 */
+	-webkit-transition:all 0.6s;
+	-moz-transition:all 0.6s;
+	-ms-transition:all 0.6s;
+	-o-transition:all 0.6s;
+	transition:all 0.6s;
+}

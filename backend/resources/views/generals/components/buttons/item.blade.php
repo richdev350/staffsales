@@ -1,0 +1,1 @@
+<span class="btn"><a href="{{ route('item.list').'/'.$item->item_categories[0]->id }}">◀ 一覧へ</a></span>
